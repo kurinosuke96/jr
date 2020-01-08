@@ -1,0 +1,418 @@
+@charset "UTF-8";
+
+/** 基本スタイル **/
+/* ======================================================================================= */
+html {
+	margin: 0;
+	padding:0;
+}
+body {
+	margin: 0;
+	padding: 0;
+    font-family:　'メイリオ', 'Meiryo';
+	color: #333;
+	box-sizing: border-box;
+	position: relative;
+	font-size: 12px;
+}
+
+img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+img[src$=".svg"] {
+	width: 100%;
+	height: auto;
+}
+
+ul,li,dl,dt,dd,ol {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+a { 
+	 transition: .3s ease all;
+     text-decoration: none;
+     display: block;
+}
+
+a:hover { 
+    transition: .3s ease all;
+    opacity: 0.5;
+}
+
+h2 {
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+h3 {
+  font-size: 13px;
+  margin-top: 0;
+  white-space: nowrap;
+} 
+li {
+    white-space: nowrap;
+}
+
+/*sitemap*/ 
+
+.sitemap {
+	width: 99%;
+	margin: 0 auto;
+}
+
+.new-line {
+    margin: 0.3em;
+}
+
+
+/*=====================================common-contents*/
+
+.common-contents h2 {
+	border-bottom:2px solid;
+	color: #ff7a7a;
+    font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+    display: inline-block;
+}
+
+.common-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+	color: #ff7a7a;
+}
+
+.common-content a {
+    color: #ff7a7a;
+}
+
+.common-content > div {
+	margin-right: 1em;
+}
+
+.common-content > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+.common-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+/* .content04 .manual h3 {
+	width: 90%;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+} */
+
+.content04 .manual .manual-contents {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+}
+
+/* .content04 .manual .manual-content01 {
+	width: 100%;
+}
+
+.content04 .manual .manual-content02 {
+	width: 100%;
+} */
+
+/* .content06 .information h3 {
+	border-bottom: 1px solid #ff7a7a;
+	width: 90%;
+} */
+.content06 .information .information-contents {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;  */
+}
+
+/* .content06 .information .information-content01 {
+	width: 100%;
+}
+
+.content06 .information .information-content02 {
+	width: 100%;
+} */
+
+/*=================================================design-contents*/
+
+.design-contents h2 {
+	border-bottom:2px solid;
+	color: #7878fd;
+    font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+    display: inline-block;
+}
+
+.design-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+	color: #7878fd;
+}
+
+.design-content > div {
+    margin-right: 1em;
+}
+
+.design-content > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+.design-content a {
+    color: #7878fd;
+}
+
+.design-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+/*contents-merge*/
+
+.contents-merge {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+    display:flex;
+    width: 100%;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+}
+
+
+/*===============================================sale-contents*/
+
+.sale-contents {
+	margin-right: 4em;
+}
+
+.sale-contents h2 {
+	border-bottom:2px solid;
+	color: #d68a01;
+    font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+    display: inline-block;
+}
+
+.sale-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+	color: #d68a01;
+}
+
+.sale-content > div {
+    margin-right: 1em;
+}
+
+.sale-content a {
+    color: #d68a01;
+}
+
+.sale-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+/* .sale-content .content01 {
+	width: calc(100% / 7);
+} */
+
+.sale-content > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/*==========================================workflow-contents*/
+
+/* .workflow {
+	width: 30%;
+} */
+
+.workflow .workflow-contents h2 {
+	border-bottom:2px solid;
+	color: grey;
+    font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+    display: inline-block;
+}
+
+.workflow .workflow-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+	color: grey;
+}
+
+.workflow-content > div {
+    margin-right: 1em;
+}
+
+.workflow-content a {
+    color: grey;
+}
+
+.workflow-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+/* .workflow .workflow-content .content01 {
+	width: 50%;
+} */
+
+.workflow-content > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/*================================================document-contents*/
+
+.document-contents {
+	margin-right: 4em;
+}
+
+.document-contents h2 {
+	border-bottom:2px solid;
+	color: #a04c4c;
+    font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+    display: inline-block;
+}
+
+.document-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+	color: #a04c4c;
+}
+
+.document-content > div {
+    margin-right: 1em;
+}
+
+.document-content a {
+    color: #a04c4c;
+}
+
+.document-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+/* .document-content .content01 {
+	width: 20%;
+} */
+
+.document-content > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+.document-content .content02 .books {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+}
+
+/* .document-content .content02 .books .books-content01 {
+	width: 100%;
+}
+
+.document-content .content02 .books .books-content02 {
+	width: 100%;
+} */
+
+.document-content .content03 .briefing-paper {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+}
+
+
+/*========================================department-contents*/
+
+/* .department-contents {
+	width: 50%;
+} */
+
+.department-contents h2 {
+	border-bottom:2px solid;
+	color: #3e813e;
+    font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+    display: inline-block;
+}
+
+.department-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	color: #3e813e;
+}
+
+.department-content > div {
+    margin-right: 3em;
+}
+
+.department-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+    font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+.department-content h3 a {
+    color: #000;
+}
+

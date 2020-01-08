@@ -1,0 +1,871 @@
+@charset "UTF-8";
+
+/** 基本スタイル **/
+/* ======================================================================================= */
+html {
+	margin: 0;
+	padding:0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	box-sizing: border-box;
+	position: relative;
+	font-size: 16px;
+	font-family: 'メイリオ', 'Meiryo';
+}
+
+img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+img[src$=".svg"] {
+	width: 100%;
+	height: auto;
+}
+
+ul,li,dl,dt,dd,ol {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+li {
+	font-size: 12px;
+}
+
+p {margin: 0 0 1em 0;}
+
+a { 
+	 transition: .3s ease all;
+	 text-decoration: none;
+}
+
+a:hover { 
+	transition: .3s ease all;
+	opacity: 0.5;
+}
+
+/*sitemap*/ 
+
+.sitemap {
+	width: 98%;
+	margin: 0 auto 120px;
+}
+
+/*==============================================common-contents*/
+
+.common-contents h2 {
+	border-bottom:2px solid;
+	color: #ff7a7a;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.common-content01 a {
+    color: #ff7a7a;
+}
+
+.common-content01 {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+	color: #ff7a7a;
+}
+
+.common-contents h3 {
+	color: #333;
+	margin-bottom: 0.1em;
+	margin-top: 0;
+	font-size: 1rem;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+	font-weight: 500;
+}
+
+/* .common-content01 .content01 {
+	width: 20%;
+} */
+.common-content01 .content01 > div {
+	padding: 1em;
+	background-color: #fdf2f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.common-content01 .content01 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.common-content01 .content01 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .common-content01 .content02 {
+	width: 20%;
+} */
+
+.common-content01 .content02 > div {
+	padding: 1em;
+	background-color: #fdf2f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+
+.common-content01 .content02 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+.common-content01 .content02 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .common-content01 .content03 {
+	width: 15%;
+} */
+
+.common-content01 .content03 > div {
+	padding: 1em;
+	background-color: #fdf2f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+
+.common-content01 .content03 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+.common-content01 .content03 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .common-content01 .content04 {
+	width: 15%;
+} */
+
+.common-content01 .content04 > div {
+	padding: 1em;
+	background-color: #fdf2f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+
+.common-content01 .content04 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+.common-content01 .content04 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .common-content01 .content05 {
+	width: 30%;
+} */
+
+.common-content01 .content05 > div {
+	padding: 1em;
+	background-color: #fdf2f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+
+.common-content01 .content05 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+.common-content01 .content05 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+
+
+.common-content01 .content06 > div {
+	padding: 1em;
+	background-color: #fdf2f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+
+.common-content01 .content06 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+.common-content01 .content06 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.common-content01 .content07 > div {
+	padding: 1em;
+	background-color: #fdf2f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+
+.common-content01 .content07 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+.common-content01 .content07 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.manual-contents {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.information-contents {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+/*======================================================design-contents*/
+
+.design-contents h2 {
+	border-bottom:2px solid;
+	color: #7878fd;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.design-content a {
+    color: #7878fd;
+}
+
+.design-content01 {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	/* -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; */
+	color: #7878fd;
+}
+
+.design-content01 > div {
+	width: calc(100%/7);
+}
+
+.design-contents h3 {
+	color: #333;
+	margin-bottom: 0.1em;
+	margin-top: 0;
+	font-size: 1rem;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+	font-weight: 500;
+}
+
+/* .design-content01 .content01 {
+	width: calc(100%/5);
+} */
+
+.design-content01 .content01 > div {
+	padding: 1em;
+	background-color: #f2f2fd;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.design-content01 .content01 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.design-content01 .content01 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .design-content01 .content02 {
+	width: calc(100%/5);
+} */
+
+.design-content01 .content02 > div {
+	padding: 1em;
+	background-color: #f2f2fd;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.design-content01 .content02 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.design-content01 .content02 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .design-content01 .content03 {
+	width: calc(100%/5);
+} */
+
+.design-content01 .content03 > div {
+	padding: 1em;
+	background-color: #f2f2fd;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.design-content01 .content03 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.design-content01 .content03 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .design-content01 .content04 {
+	width: calc(100%/5);
+} */
+
+.design-content01 .content04 > div {
+	padding: 1em;
+	background-color: #f2f2fd;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.design-content01 .content04 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.design-content01 .content04 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .design-content01 .content05 {
+	width: calc(100%/5);
+} */
+
+.design-content01 .content05 > div {
+	padding: 1em;
+	background-color: #f2f2fd;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.design-content01 .content05 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.design-content01 .content05 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.design-content01 .content06 > div {
+	padding: 1em;
+	background-color: #f2f2fd;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.design-content01 .content06 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.design-content01 .content06 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.design-content01 .content07 > div {
+	padding: 1em;
+	background-color: #f2f2fd;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.design-content01 .content07 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.design-content01 .content07 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+
+/*=================================================contents-merge*/
+
+.contents-merge {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+/*=================================================sale-contents*/
+
+.sale-contents {
+	width: 79%;
+}
+
+.sale-contents h2 {
+	border-bottom:2px solid;
+	color: #d68a01;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.sale-content a {
+    color: #d68a01;
+}
+
+.sale-content01 {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	color: #d68a01;
+}
+
+.sale-contents h3 {
+	color: #333;
+	margin-bottom: 0.1em;
+	margin-top: 0;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+	font-weight: 500;
+}
+
+.sale-content01 .content01 {
+	width: 15%;
+}
+
+.sale-content01 .content01 > div {
+	padding: 1em;
+	background-color: #fff1e3;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.sale-content01 .content01 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.sale-content01 .content01 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.sale-content01 .content02 {
+	width: 20%;
+}
+
+.sale-content01 .content02 > div {
+	padding: 1em;
+	background-color: #fff1e3;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.sale-content01 .content02 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.sale-content01 .content02 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.sale-content01 .content03 {
+	width: 25%;
+}
+
+.sale-content01 .content03 > div {
+	padding: 1em;
+	background-color: #fff1e3;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.sale-content01 .content03 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.sale-content01 .content03 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.sale-content01 .content04 {
+	width: 25%;
+}
+
+.sale-content01 .content04 > div {
+	padding: 1em;
+	background-color: #fff1e3;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.sale-content01 .content04 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.sale-content01 .content04 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.sale-content01 .content05 {
+	width: 25%;
+}
+
+.sale-content01 .content05 > div {
+	padding: 1em;
+	background-color: #fff1e3;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.sale-content01 .content05 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.sale-content01 .content05 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+/*===============================================workflow-contents*/
+.workflow-contents {
+	width: 20%;
+}
+
+.workflow-contents h2 {
+	border-bottom:2px solid;
+	color: grey;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.workflow-content a {
+    color: grey;
+}
+
+.workflow-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	color: grey;
+}
+
+.workflow-contents h3 {
+	color: #333;
+	margin-bottom: 0.1em;
+	margin-top: 0;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+	font-weight: 500;
+}
+
+.workflow-content .content01 {
+	width: 100%;
+}
+
+.workflow-content .content01 > div {
+	padding: 1em;
+	background-color: #f6f6f6;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.workflow-content .content01 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.workflow-content .content01 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*===========================================document-contents*/
+
+.document-contents {
+	width: 69%;
+}
+
+.document-contents h2 {
+	border-bottom:2px solid;
+	color: #a04c4c;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.document-content a {
+    color: #a04c4c;
+}
+
+.document-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	color: #a04c4c;
+}
+
+.document-contents h3 {
+	color: #333;
+	margin-bottom: 0.1em;
+	margin-top: 0;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+	font-weight: 500;
+}
+
+.document-content .content01 {
+	width: 15%;
+}
+
+.document-content .content01 > div {
+	padding: 1em;
+	background-color: #fdf5f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.document-content .content01 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.document-content .content01 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.document-content .content02 {
+	width: 30%;
+}
+
+.document-content .content02 > div {
+	padding: 1em;
+	background-color: #fdf5f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.document-content .content02 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.document-content .content02 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* .books .books-contents {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+} */
+
+.document-content .content03 {
+	width: 35%;
+}
+
+.document-content .content03 > div {
+	padding: 1em;
+	background-color: #fdf5f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.document-content .content03 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.document-content .content03 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.document-content .content04 {
+	width: 20%;
+}
+
+.document-content .content04 > div {
+	padding: 1em;
+	background-color: #fdf5f2;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}
+.document-content .content04 > div li {
+	padding-left: 1em;
+	position: relative;
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+.document-content .content04 > div li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*============================================department-contents*/
+
+.department-contents {
+	width: 30%;
+}
+
+.department-contents h2 {
+	border-bottom:2px solid;
+	color: #3e813e;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.department-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+}
+
+.department-contents h3 {
+	color: #333;
+	margin-bottom: 0.1em;
+	margin-top: 0;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+	font-weight: 500;
+}
+
+.department-contents h3 a {
+	color: #333;
+}
+
+.content-merge {
+	width: calc(100%/3);
+}
+
+.content-merge > div {
+	padding: 1em;
+	background-color: #f2fdf3;
+	margin: 0 1em 1em 0;
+	font-size: 0.875rem;
+	border-radius: 5px;
+}

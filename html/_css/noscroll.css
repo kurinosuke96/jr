@@ -1,0 +1,896 @@
+@charset "UTF-8";
+
+/** 基本スタイル **/
+/* ======================================================================================= */
+html {
+	margin: 0;
+    padding:0;
+    font-size:62.5%;
+}
+body {
+	margin: 0;
+	padding:10px 0 10px 0;
+    font-family:　'メイリオ', 'Meiryo';
+	color: #333;
+	box-sizing: border-box;
+	position: relative;
+    /*font-size: 0.4vw;
+    font-size: 62.5%;*/
+}
+
+main{
+    font-size:1.4rem;
+}
+}
+
+img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+img[src$=".svg"] {
+	width: 100%;
+	height: auto;
+}
+
+ul,li,dl,dt,dd,ol {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+p {margin: 0 0 1em 0;}
+
+
+a { 
+	 transition: .3s ease all;
+     text-decoration: none;
+}
+
+a:hover { 
+    transition: .3s ease all;
+    opacity: 0.5;
+}
+
+h2{
+    margin:0 0 0;
+}
+}
+h3 {
+	/*font-size: 0.5vw;*/
+}
+
+/*sitemap*/ 
+
+.sitemap {
+	width: 99%;
+	margin: 0 auto;
+}
+
+/*=====================================common-contents*/
+
+.common-contents h2 {
+	border-bottom:2px solid;
+	color: #ff7a7a;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.common-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	color: #ff7a7a;
+}
+
+.common-content a {
+    color: #ff7a7a;
+}
+
+.common-content .content01 {
+	width: 11%;
+}
+
+.common-content .content01 > div li {
+    padding-left: 1em;
+    position: relative;
+    /*line-height: 10px;*/
+    margin-bottom: 0.5em;
+}
+
+/* .common-content .content01 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.common-content .content02 {
+	width: 11%;
+}
+
+.common-content .content02 > div li {
+    padding-left: 1em;
+    position: relative;
+    /*line-height: 10px;*/
+    margin-bottom: 0.5em;
+}
+
+/* .common-content .content02 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.common-content .content03 {
+	width: 11%;
+}
+
+.common-content .content03 > div li {
+    padding-left: 1em;
+    position: relative;
+    /*line-height: 10px;*/
+    margin-bottom: 0.5em;
+}
+
+/* .common-content .content03 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.common-content .content04 {
+	width: 22%;
+}
+
+.common-content .content04 > div li {
+    padding-left: 1em;
+    position: relative;
+    /*line-height: 10px;*/
+    margin-bottom: 0.5em;
+}
+
+/* .common-content .content04 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.common-content .content05 {
+	width: 11%;
+}
+
+.common-content .content05 > div li {
+    padding-left: 1em;
+    position: relative;
+    /*line-height: 10px;*/
+    margin-bottom: 0.5em;
+}
+
+/* .common-content .content05 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.common-content .content06 {
+	width: 22%;
+}
+
+.common-content .content06 > div li {
+    padding-left: 1em;
+    position: relative;
+    /*line-height: 10px;*/
+    margin-bottom: 0.5em;
+}
+
+/* .common-content .content06 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.common-content .content07 {
+	width: 11%;
+}
+
+.common-content .content07 > div li {
+    padding-left: 1em;
+    position: relative;
+    /*line-height: 10px;*/
+    margin-bottom: 0.5em;
+}
+
+/* .common-content .content07 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.common-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+    margin-top:5px;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+.content04 .manual h3 {
+	border-bottom: 1px solid #ff7a7a;
+	width: 90%;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+.content04 .manual .manual-contents {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.content04 .manual .manual-content01 {
+	width: 100%;
+}
+
+.content04 .manual .manual-content02 {
+	width: 100%;
+}
+
+.content06 .information h3 {
+	border-bottom: 1px solid #ff7a7a;
+	width: 90%;
+}
+.content06 .information .information-contents {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between; 
+}
+
+.content06 .information .information-content01 {
+	width: 100%;
+}
+
+.content06 .information .information-content02 {
+	width: 100%;
+}
+
+/*=================================================design-contents*/
+
+.design-contents h2 {
+	border-bottom:2px solid;
+	color: #7878fd;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.design-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	color: #7878fd;
+}
+
+.design-content a {
+    color: #7878fd;
+}
+
+.design-content .content01 {
+	width: calc(100%/9);
+}
+
+.design-content .content01 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .design-content .content01 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content .content02 {
+	width: calc(100%/9);
+}
+
+.design-content .content02 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .design-content .content02 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content .content03 {
+	width: calc(100%/9);
+}
+
+.design-content .content03 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .design-content .content03 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content .content04 {
+	width: calc(100%/9);
+}
+
+.design-content .content04 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+/* 
+.design-content .content04 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content .content05 {
+	width: calc(100%/9);
+}
+
+.design-content .content05 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .design-content .content05 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content .content06 {
+	width: calc(100%/9);
+}
+
+.design-content .content06 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .design-content .content06 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content .content07 {
+	width: calc(100%/9);
+}
+
+.design-content .content07 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .design-content .content07 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content .content08 {
+	width: calc(100%/9);
+}
+
+.design-content .content08 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .design-content .content08 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content .content09 {
+	width: calc(100%/9);
+}
+
+.design-content .content09 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .design-content .content09 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.design-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+/*contents-merge*/
+
+.contents-merge {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+
+/*===============================================sale-contents*/
+
+.sale-contents {
+	width: 77%;
+}
+
+.sale-contents h2 {
+	border-bottom:2px solid;
+	color: #d68a01;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.sale-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	color: #d68a01;
+}
+
+.sale-content a {
+    color: #d68a01;
+}
+
+.sale-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+.sale-content .content01 {
+	width: calc(100% / 7);
+}
+
+.sale-content .content01 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .sale-content .content01 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.sale-content .content02 {
+	width: calc(100% / 7);
+}
+
+.sale-content .content02 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .sale-content .content02 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.sale-content .content03 {
+	width: calc(100% / 7);
+}
+
+.sale-content .content03 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .sale-content .content03 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.sale-content .content04 {
+	width: calc(100% / 7);
+}
+
+.sale-content .content04 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .sale-content .content04 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.sale-content .content05 {
+	width: calc(100% / 7);
+}
+
+.sale-content .content05 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .sale-content .content05 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.sale-content .content06 {
+	width: calc(100% / 7);
+}
+
+.sale-content .content06 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .sale-content .content06 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.sale-content .content07 {
+	width: calc(100% / 7);
+}
+
+.sale-content .content07 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .sale-content .content07 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+/*==========================================workflow-contents*/
+
+.workflow {
+	width: 22%;
+}
+
+.workflow .workflow-contents h2 {
+	border-bottom:2px solid;
+	color: grey;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.workflow .workflow-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	color: grey;
+}
+
+.workflow-content a {
+    color: grey;
+}
+
+.workflow-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+.workflow .workflow-content .content01 {
+	width: 50%;
+}
+
+.workflow-content .content01 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .workflow-content .content01 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.workflow .workflow-content .content02 {
+	width: 50%;
+}
+
+.workflow-content .content02 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .workflow-content .content02 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+/*================================================document-contents*/
+
+.document-contents {
+	width: 55%;
+}
+
+.document-contents h2 {
+	border-bottom:2px solid;
+	color: #a04c4c;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.document-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	color: #a04c4c;
+}
+
+.document-content a {
+    color: #a04c4c;
+}
+
+.document-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+.document-content .content01 {
+	width: 20%;
+}
+
+.document-content .content01 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .document-content .content01 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.document-content .content02 {
+	width: 40%;
+}
+
+.document-content .content02 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .document-content .content02 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.document-content .content03 {
+	width: 20%;
+}
+
+.document-content .content03 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .document-content .content03 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.document-content .content04 {
+	width: 20%;
+}
+
+.document-content .content04 > div li {
+    padding-left: 1em;
+    position: relative;
+    line-height: 10px;
+    margin-bottom: 0.5em;
+}
+
+/* .document-content .content04 > div li:before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.document-content .content02 h3 {
+	border-bottom: 1px solid #a04c4c;
+	width: 90%;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+.document-content .content02 .books {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.document-content .content02 .books .books-content01 {
+	width: 100%;
+}
+
+.document-content .content02 .books .books-content02 {
+	width: 100%;
+}
+
+.document-content .content03 .briefing-paper {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+
+/*========================================department-contents*/
+
+.department-contents {
+	width: 44%;
+}
+
+.department-contents h2 {
+	border-bottom:2px solid;
+	color: #3e813e;
+	font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+}
+
+.department-content {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	color: #3e813e;
+}
+
+.department-content .content01 {
+	width: calc(100% / 6);
+}
+
+.department-content .content02 {
+	width: calc(100% / 7);
+}
+
+
+.department-content .content03 {
+	width: calc(100% / 7);
+}
+
+.department-content .content04 {
+	width: calc(100% / 7);
+}
+
+.department-content .content05 {
+	width: calc(100% / 7);
+}
+
+.department-content h3 {
+	color: #000;
+    margin-bottom: 0.1em;
+	font-weight: normal;
+	font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+
+.department-content h3 a {
+    color: #000;
+}
+
+.department-content .content02 .commercial {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
