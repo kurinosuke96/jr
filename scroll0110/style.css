@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+ html {
+	width: 91%;
+    margin: 0 auto;
+	padding:0;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+} 
+article {
+    margin: 0 0 2em 0;
+}
+h2 {
+    margin: 0 0 0.5em 0;
+     text-align: center;
+     font-family: '小塚ゴシック Pro M','Kozuka Gothic Pro Midium',sans-serif;
+    }
+div {
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display: flex;
+}
+section {
+    width: 13%;
+    margin: 0 2% 0 0;
+}
+.first > div > section > dl {
+    padding: 1em;
+    background-color: #fdf2f2;
+    margin: 0 1em 1em 0;
+    font-size: 0.875rem;
+    border-radius: 5px;
+}
+.first h2,.first section dl dd a {
+    color: #e65f0e;
+}
+.second h2,.second section dl dd a {
+    color: #006ed2;
+}
+.third {
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display: flex;
+}
+.third01 {
+    width: calc(100% / 3 * 2);
+}
+.third01 h2,.third01 section dl dd a {
+    color: #007b39;
+}
+.third01 section {
+    width: calc((100% / 6) / 11 * 9);
+    margin-right: calc((100% / 6) / 11 * 2);
+}
+.third02 {
+    width: calc(100% / 3 * 1);
+}
+.third02 h2,.third02 section dl dd a {
+    color: #812e86;
+}
+.third02 section {
+    width: calc((100% / 3) / 11 * 9);
+    margin: calc((100% / 3) / 11 * 2);
+}
+.four h2,.four section dl dd a {
+    color: #6d6d6d;
+}
+dl {
+    margin: 0 0 1em 0;
+}
+dt {
+    font-size: 16px;
+    white-space: nowrap;
+    font-family: '小塚ゴシック Pro L','Kozuka Gothic Pro Light',sans-serif;
+}
+dd {
+    font-size: 12px; 
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+a { 
+    transition: .3s ease all;
+    text-decoration: none;
+}
+a:hover { 
+   transition: .3s ease all;
+   opacity: 0.5;
+}
+
